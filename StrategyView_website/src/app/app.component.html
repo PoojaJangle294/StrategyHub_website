@@ -1,0 +1,5 @@
+<div class="app-container">
+  <app-toggle (viewChange)="onViewChange($event)"></app-toggle>
+  <app-dropdown [dates]="dateArray" (dateChange)="onDateChange($event)"></app-dropdown>
+  <app-cards [view]="selectedView" [date]="selectedDate" [strategies]="strategyArray"></app-cards>
+</div>
