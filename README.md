@@ -15,5 +15,7 @@ This is a web page built with the TypeScript(Angular) for showing the strategy i
 ## Features
 - User Strategy information
 
+## Project Deploy link: https://poojajangle294.github.io/StrategyHub_website/
+
 ### Contact
 For any questions or issues, please open an issue on the GitHub repository or contact the developer at [poojajangle29@gmail.com].
