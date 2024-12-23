@@ -1,0 +1,5 @@
+<div class="date-change">
+    <select [(ngModel)]="selectedDate" (change)="onDateChange()">
+        <option *ngFor="let date of dates" [value]="date">{{ date |date: 'dd MMM y'}}</option>
+    </select>
+</div>

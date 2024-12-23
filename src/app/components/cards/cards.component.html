@@ -1,0 +1,16 @@
+<div *ngIf="filteredStrategies.length> 0; else emptyState">
+    <div class="strategies-list">
+        <div *ngFor="let strategy of filteredStrategies" class="strategy-card">
+            <div class="strategy-name">{{ strategy.name }}</div>
+            <div class="strategy-count">
+                {{ strategy.count }} {{ strategy.count > 1 ? 'Strategies' : 'Strategy' }}
+            </div>
+        </div>
+    </div>
+</div>
+<ng-template #emptyState>
+    <div class="no-strategy">
+        <p>There are no strategies for</p>
+        <p id="date-no-strategy"><strong>{{ date | date: 'dd MMM y' }}</strong></p>
+    </div>
+</ng-template>

@@ -1,0 +1,25 @@
+.toggle-container button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    margin-left: 30px;
+    color: rgb(145, 143, 143);
+}
+
+button {
+    border-radius: 15px;
+}
+
+.toggle-container button.selected {
+    background-color: #1e70c7;
+    color: white;
+}
+
+.toggling {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 3px;
+}
