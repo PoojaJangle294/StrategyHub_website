@@ -15,6 +15,7 @@
           "options": {
             "outputPath": "dist/StrategyHub_website",
             "index": "src/index.html",
+            "baseHref": "/StrategyHub_website/",
             "main": "src/main.ts",
             "polyfills": [
               "zone.js"
