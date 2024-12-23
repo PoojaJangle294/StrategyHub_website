@@ -21,6 +21,6 @@ export class DataserviceService {
   getData(): Observable<any> {
     console.log(this.http.get('assets/db.json'));
      
-    return this.http.get('/assets/db.json'); 
+    return this.http.get('assets/db.json'); 
   }
 }
