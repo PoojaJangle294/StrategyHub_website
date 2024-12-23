@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/strategy-view-website",
+            "outputPath": "dist/StrategyHub_website",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -94,5 +94,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "641ab209-632c-4e03-812c-d4b1ad02035a"
   }
 }

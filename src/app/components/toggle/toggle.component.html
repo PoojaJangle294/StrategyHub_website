@@ -1,0 +1,8 @@
+<div class="toggle-container">
+    <div class="toggling">
+        <button *ngFor="let view of views" (click)="changeView(view)" [class.selected]="view === selectedView">
+            {{ view }}
+        </button>
+    </div>
+
+</div>
